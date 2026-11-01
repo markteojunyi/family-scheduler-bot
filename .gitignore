@@ -1,0 +1,9 @@
+.env
+credentials.json
+token.json
+*.db
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.claude/settings.local.json

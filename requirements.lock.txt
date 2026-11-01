@@ -1,0 +1,47 @@
+# Exact runtime versions this project's test suite passed against
+# (175 tests, 2026-08-02, Python 3.13.7). Regenerate deliberately, not casually:
+#   pip install -r requirements.txt -c requirements.lock.txt   (in a clean venv)
+#   pip freeze
+# Install on a server with:  pip install -r requirements.lock.txt
+# Test-only packages are intentionally absent - see requirements-dev.txt.
+annotated-types==0.7.0
+anyio==4.14.2
+certifi==2026.6.17
+cffi==2.1.0
+charset-normalizer==3.4.9
+colorama==0.4.6
+cryptography==49.0.0
+distro==1.9.0
+google-api-core==2.32.0
+google-api-python-client==2.198.0
+google-auth==2.56.0
+google-auth-httplib2==0.4.0
+google-auth-oauthlib==1.4.0
+googleapis-common-protos==1.75.0
+h11==0.16.0
+httpcore==1.0.9
+httplib2==0.32.0
+httpx==0.28.1
+idna==3.18
+jiter==0.16.0
+oauthlib==3.3.1
+openai==2.46.0
+proto-plus==1.28.1
+protobuf==7.35.1
+pyasn1==0.6.4
+pyasn1_modules==0.4.2
+pycparser==3.0
+pydantic==2.13.4
+pydantic_core==2.46.4
+pyparsing==3.3.2
+python-dotenv==1.2.2
+python-telegram-bot==22.8
+requests==2.34.2
+requests-oauthlib==2.0.0
+sniffio==1.3.1
+tqdm==4.69.0
+typing-inspection==0.4.2
+typing_extensions==4.16.0
+tzdata==2026.3
+uritemplate==4.2.0
+urllib3==2.7.0

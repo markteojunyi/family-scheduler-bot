@@ -1,0 +1,4 @@
+# Development/test dependencies, on top of requirements.txt:
+#     pip install -r requirements.txt -r requirements-dev.txt
+# Not needed on the server - the bot never runs its own tests there.
+pytest

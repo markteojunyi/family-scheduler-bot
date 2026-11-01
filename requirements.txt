@@ -1,0 +1,14 @@
+# Runtime dependencies. This file states what the project needs; the exact
+# versions these tests passed against are pinned in requirements.lock.txt.
+#
+# On a server, install the LOCK file so the deploy matches the tested set:
+#     pip install -r requirements.lock.txt
+#
+# Test-only dependencies live in requirements-dev.txt, so a production
+# install doesn't drag pytest onto the box.
+python-telegram-bot>=21
+google-api-python-client
+google-auth-oauthlib
+openai
+python-dotenv
+tzdata
